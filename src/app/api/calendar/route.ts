@@ -13,26 +13,29 @@ export async function GET(request: Request) {
 
     const events: any[] = [];
 
-    // Load tasks and group by creation date
+    // Load tasks and group by DUE DATE (not creation date)
     try {
       const tasksContent = await fs.readFile(TASKS_FILE, "utf-8");
       const tasks = JSON.parse(tasksContent);
       for (const task of tasks) {
-        const d = new Date(task.createdAt);
+        // Use dueDate if available, otherwise fall back to createdAt
+        const dateStr = task.dueDate || task.createdAt.split("T")[0];
+        const d = new Date(dateStr);
         if (d.getFullYear() === year && d.getMonth() + 1 === month) {
           events.push({
             id: task.id,
-            date: task.createdAt.split("T")[0],
+            date: dateStr,
             title: task.title,
             type: "task",
             status: task.status,
             project: task.project,
+            priority: task.priority,
           });
         }
       }
     } catch {}
 
-    // Load activity events for this month
+    // Load activity events for this month (still by creation time)
     try {
       const activityContent = await fs.readFile(ACTIVITY_FILE, "utf-8");
       const activities = JSON.parse(activityContent);

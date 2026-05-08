@@ -13,6 +13,7 @@ interface Task {
   priority: string;
   project: string;
   assignee: string;
+  dueDate?: string;
   createdAt: string;
 }
 
@@ -20,7 +21,7 @@ export default function TasksPage() {
   const [tasks, setTasks] = useState<Task[]>([]);
   const [loading, setLoading] = useState(true);
   const [showModal, setShowModal] = useState(false);
-  const [form, setForm] = useState({ title: "", status: "pending", priority: "medium", project: "", assignee: "" });
+  const [form, setForm] = useState({ title: "", status: "pending", priority: "medium", project: "", assignee: "", dueDate: "" });
   const [saving, setSaving] = useState(false);
   const [search, setSearch] = useState("");
   const { addToast } = useToast();
@@ -81,7 +82,7 @@ export default function TasksPage() {
       });
       if (res.ok) {
         setShowModal(false);
-        setForm({ title: "", status: "pending", priority: "medium", project: "", assignee: "" });
+        setForm({ title: "", status: "pending", priority: "medium", project: "", assignee: "", dueDate: "" });
         addToast("Task created!");
         fetchTasks();
       }
@@ -158,6 +159,11 @@ export default function TasksPage() {
                     <div className="flex items-center gap-3 mt-1">
                       {task.project && <span className="text-xs text-[#6B7280]">📁 {task.project}</span>}
                       {task.assignee && <span className="text-xs text-[#6B7280]">👤 {task.assignee}</span>}
+                      {task.dueDate && (
+                        <span className={`text-xs ${new Date(task.dueDate) < new Date() ? "text-[#DC2626]" : "text-[#2563EB]"}`}>
+                          📅 {new Date(task.dueDate).toLocaleDateString("en-US", { month: "short", day: "numeric" })}
+                        </span>
+                      )}
                     </div>
                   </div>
                   <div className="flex items-center gap-2 flex-shrink-0">
@@ -203,6 +209,7 @@ export default function TasksPage() {
               </div>
               <input type="text" value={form.project} onChange={(e) => setForm({ ...form, project: e.target.value })} placeholder="Project (optional)" className="w-full px-3 py-2 bg-[#0A0A0F] border border-white/10 rounded-md text-[#F5F5F5] text-sm focus:border-[#9333EA] focus:outline-none" />
               <input type="text" value={form.assignee} onChange={(e) => setForm({ ...form, assignee: e.target.value })} placeholder="Assignee (optional)" className="w-full px-3 py-2 bg-[#0A0A0F] border border-white/10 rounded-md text-[#F5F5F5] text-sm focus:border-[#9333EA] focus:outline-none" />
+              <input type="date" value={form.dueDate} onChange={(e) => setForm({ ...form, dueDate: e.target.value })} className="w-full px-3 py-2 bg-[#0A0A0F] border border-white/10 rounded-md text-[#F5F5F5] text-sm focus:border-[#9333EA] focus:outline-none" />
             </div>
             <div className="flex justify-end gap-3 mt-6">
               <button onClick={() => setShowModal(false)} className="px-4 py-2 text-sm text-[#6B7280] border border-white/10 rounded-md">Cancel</button>

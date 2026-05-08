@@ -12,7 +12,14 @@ interface CalendarEvent {
   status?: string;
   project?: string;
   actionType?: string;
+  priority?: string;
 }
+
+const priorityDot: Record<string, string> = {
+  high: "bg-[#DC2626]",
+  medium: "bg-[#92400E]",
+  low: "bg-[#6B7280]",
+};
 
 export default function CalendarPage() {
   const today = new Date();
@@ -94,7 +101,7 @@ export default function CalendarPage() {
       <div className="p-8 max-w-6xl">
         <div className="mb-8">
           <h1 className="text-3xl font-bold text-[#F5F5F5] mb-2">Calendar</h1>
-          <p className="text-[#6B7280]">Tasks and events timeline</p>
+          <p className="text-[#6B7280]">Tasks and events timeline — showing due dates</p>
         </div>
 
         <div className="grid gap-6 lg:grid-cols-[1fr_320px]">
@@ -168,11 +175,19 @@ export default function CalendarPage() {
               ) : (
                 <div className="space-y-2">
                   {selectedEvents.map((ev) => (
-                    <div key={ev.id} className="p-3 bg-[#0A0A0F] rounded-lg">
+                    <div key={ev.id} className="p-3 bg-[#0A0A0F] rounded-lg border border-white/5">
                       <div className="flex items-center gap-2 mb-1">
                         <div className={`w-2 h-2 rounded-full ${eventColor(ev.type, ev.status)}`} />
                         <span className="text-[10px] text-[#6B7280] uppercase">{ev.type}</span>
-                        {ev.status && <span className="text-[10px] text-[#6B7280]">{ev.status}</span>}
+                        {ev.status && ev.type === "task" && (
+                          <span className="text-[10px] text-[#6B7280]">{ev.status}</span>
+                        )}
+                        {ev.priority && ev.type === "task" && (
+                          <span className={`text-[10px] px-1.5 py-0.5 rounded ${priorityDot[ev.priority] || "bg-[#6B7280]"} text-white`}>{ev.priority}</span>
+                        )}
+                        {ev.actionType && ev.type === "activity" && (
+                          <span className="text-[10px] text-[#6B7280]">{ev.actionType}</span>
+                        )}
                       </div>
                       <p className="text-xs text-[#D1D5DB] leading-relaxed">{ev.title}</p>
                       {ev.project && <p className="text-[10px] text-[#6B7280] mt-1">📁 {ev.project}</p>}

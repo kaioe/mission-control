@@ -6,7 +6,8 @@
     "priority": "high",
     "project": "BJJ Lotus Club",
     "assignee": "Oss",
-    "createdAt": "2026-05-06T10:00:00.000Z"
+    "createdAt": "2026-05-06T10:00:00.000Z",
+    "dueDate": "2026-05-10"
   },
   {
     "id": "task-2",
@@ -15,7 +16,8 @@
     "priority": "high",
     "project": "BJJ Lotus Club",
     "assignee": "Oss",
-    "createdAt": "2026-05-07T08:00:00.000Z"
+    "createdAt": "2026-05-07T08:00:00.000Z",
+    "dueDate": "2026-05-12"
   },
   {
     "id": "task-3",
@@ -24,7 +26,8 @@
     "priority": "high",
     "project": "BJJ Lotus Club",
     "assignee": "Oss",
-    "createdAt": "2026-05-08T04:46:00.000Z"
+    "createdAt": "2026-05-08T04:46:00.000Z",
+    "dueDate": "2026-05-15"
   },
   {
     "id": "task-4",
@@ -34,7 +37,8 @@
     "project": "BJJ Lotus Club",
     "assignee": "Oss",
     "createdAt": "2026-05-08T05:00:00.000Z",
-    "updatedAt": "2026-05-08T04:30:57.940Z"
+    "updatedAt": "2026-05-08T04:30:57.940Z",
+    "dueDate": "2026-05-20"
   },
   {
     "id": "task-5",
@@ -44,7 +48,8 @@
     "project": "BJJ Lotus Club",
     "assignee": "Oss",
     "createdAt": "2026-05-08T05:00:00.000Z",
-    "updatedAt": "2026-05-08T04:43:00.000Z"
+    "updatedAt": "2026-05-08T04:43:00.000Z",
+    "dueDate": "2026-05-25"
   },
   {
     "id": "task-6",
@@ -53,7 +58,8 @@
     "priority": "low",
     "project": "BJJ Lotus Club",
     "assignee": "Oss",
-    "createdAt": "2026-05-08T05:00:00.000Z"
+    "createdAt": "2026-05-08T05:00:00.000Z",
+    "dueDate": "2026-05-28"
   },
   {
     "id": "task-7",
@@ -62,7 +68,8 @@
     "priority": "medium",
     "project": "Mission Control",
     "assignee": "Oss",
-    "createdAt": "2026-05-08T05:00:00.000Z"
+    "createdAt": "2026-05-08T05:00:00.000Z",
+    "dueDate": "2026-06-01"
   },
   {
     "id": "task-8",
@@ -73,7 +80,8 @@
     "assignee": "Oss",
     "createdAt": "2026-05-08T06:47:00.000Z",
     "updatedAt": "2026-05-08T06:40:00.000Z",
-    "completedAt": "2026-05-08T06:40:00.000Z"
+    "completedAt": "2026-05-08T06:40:00.000Z",
+    "dueDate": "2026-05-22"
   },
   {
     "id": "task-9",
@@ -84,7 +92,8 @@
     "assignee": "Oss",
     "createdAt": "2026-05-08T06:47:00.000Z",
     "updatedAt": "2026-05-08T12:40:00.000Z",
-    "completedAt": "2026-05-08T12:40:00.000Z"
+    "completedAt": "2026-05-08T12:40:00.000Z",
+    "dueDate": "2026-05-25"
   },
   {
     "id": "task-10",
@@ -93,6 +102,7 @@
     "priority": "medium",
     "project": "BJJ Lotus Club",
     "assignee": "Oss",
-    "createdAt": "2026-05-08T06:47:00.000Z"
+    "createdAt": "2026-05-08T06:47:00.000Z",
+    "dueDate": "2026-06-05"
   }
 ]

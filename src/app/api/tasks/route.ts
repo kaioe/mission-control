@@ -34,6 +34,7 @@ export async function POST(request: Request) {
       priority: body.priority || "medium",
       project: body.project || "",
       assignee: body.assignee || "",
+      dueDate: body.dueDate || null,
       createdAt: new Date().toISOString(),
     };
     tasks.push(task);
