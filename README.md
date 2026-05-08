@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="public/bjj-pixel-art.svg" width="120" height="150" alt="BJJ Pixel Art">
+  <img src="public/bjj-academy.webp" width="640" alt="BJJ Academy - 5 Belt Lineup">
 </p>
 
 <h1 align="center">Mission Control</h1>
