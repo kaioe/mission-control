@@ -1,0 +1,94 @@
+[
+  {
+    "id": "task-1",
+    "title": "Design BJJ Lotus Club logo",
+    "status": "done",
+    "priority": "high",
+    "project": "BJJ Lotus Club",
+    "assignee": "Oss",
+    "createdAt": "2026-05-06T10:00:00.000Z"
+  },
+  {
+    "id": "task-2",
+    "title": "Build Mission Control Phase 1 dashboard",
+    "status": "done",
+    "priority": "high",
+    "project": "BJJ Lotus Club",
+    "assignee": "Oss",
+    "createdAt": "2026-05-07T08:00:00.000Z"
+  },
+  {
+    "id": "task-3",
+    "title": "Add project CRUD to Mission Control",
+    "status": "done",
+    "priority": "high",
+    "project": "BJJ Lotus Club",
+    "assignee": "Oss",
+    "createdAt": "2026-05-08T04:46:00.000Z"
+  },
+  {
+    "id": "task-4",
+    "title": "Write first BJJ Lotus Club newsletter",
+    "status": "done",
+    "priority": "medium",
+    "project": "BJJ Lotus Club",
+    "assignee": "Oss",
+    "createdAt": "2026-05-08T05:00:00.000Z",
+    "updatedAt": "2026-05-08T04:30:57.940Z"
+  },
+  {
+    "id": "task-5",
+    "title": "Create curriculum outline for white belt fundamentals",
+    "status": "done",
+    "priority": "medium",
+    "project": "BJJ Lotus Club",
+    "assignee": "Oss",
+    "createdAt": "2026-05-08T05:00:00.000Z",
+    "updatedAt": "2026-05-08T04:43:00.000Z"
+  },
+  {
+    "id": "task-6",
+    "title": "Set up social media content calendar",
+    "status": "pending",
+    "priority": "low",
+    "project": "BJJ Lotus Club",
+    "assignee": "Oss",
+    "createdAt": "2026-05-08T05:00:00.000Z"
+  },
+  {
+    "id": "task-7",
+    "title": "Build memory consolidation cron job",
+    "status": "pending",
+    "priority": "medium",
+    "project": "Mission Control",
+    "assignee": "Oss",
+    "createdAt": "2026-05-08T05:00:00.000Z"
+  },
+  {
+    "id": "task-8",
+    "title": "Create class schedule and pricing structure",
+    "status": "pending",
+    "priority": "high",
+    "project": "BJJ Lotus Club",
+    "assignee": "Oss",
+    "createdAt": "2026-05-08T06:47:00.000Z"
+  },
+  {
+    "id": "task-9",
+    "title": "Design new member onboarding flow",
+    "status": "pending",
+    "priority": "high",
+    "project": "BJJ Lotus Club",
+    "assignee": "Oss",
+    "createdAt": "2026-05-08T06:47:00.000Z"
+  },
+  {
+    "id": "task-10",
+    "title": "Build website landing page content",
+    "status": "pending",
+    "priority": "medium",
+    "project": "BJJ Lotus Club",
+    "assignee": "Oss",
+    "createdAt": "2026-05-08T06:47:00.000Z"
+  }
+]

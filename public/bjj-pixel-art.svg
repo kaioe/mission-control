@@ -1,0 +1,198 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" width="400" height="500">
+  <style>
+    /* Pixel-art crisp rendering */
+    rect { shape-rendering: crispEdges; }
+  </style>
+  <rect width="400" height="500" fill="#1a1a2e"/>
+  
+  <!-- Title -->
+  <text x="200" y="30" text-anchor="middle" fill="#e0e0e0" font-family="monospace" font-size="12" font-weight="bold">BJJ LOTUS CLUB</text>
+  <text x="200" y="44" text-anchor="middle" fill="#6B7280" font-family="monospace" font-size="8">BELT LINEUP</text>
+
+  <!-- ============================================ -->
+  <!-- WHITE BELT - Fighter 1 (leftmost) -->
+  <!-- ============================================ -->
+  
+  <!-- Body/gi -->
+  <rect x="50" y="120" width="24" height="40" fill="#F0F0F0"/>
+  <!-- Head -->
+  <rect x="54" y="100" width="16" height="20" fill="#D4A574"/>
+  <!-- Shoulders -->
+  <rect x="44" y="120" width="36" height="8" fill="#E8E8E8"/>
+  <!-- Gi lapel V -->
+  <rect x="58" y="128" width="8" height="8" fill="#D0D0D0"/>
+  <rect x="60" y="128" width="4" height="28" fill="#D0D0D0"/>
+  <!-- Belt - WHITE -->
+  <rect x="50" y="148" width="24" height="4" fill="#FFFFFF"/>
+  <rect x="60" y="148" width="4" height="12" fill="#FFFFFF"/>
+  <!-- Legs -->
+  <rect x="52" y="160" width="8" height="24" fill="#E8E8E8"/>
+  <rect x="64" y="160" width="8" height="24" fill="#E8E8E8"/>
+  <!-- Feet -->
+  <rect x="50" y="184" width="12" height="6" fill="#F0F0F0"/>
+  <rect x="62" y="184" width="12" height="6" fill="#F0F0F0"/>
+  <!-- Eyes -->
+  <rect x="58" y="108" width="2" height="2" fill="#1a1a2e"/>
+  <rect x="64" y="108" width="2" height="2" fill="#1a1a2e"/>
+  <!-- Headband -->
+  <rect x="54" y="100" width="16" height="4" fill="#C0392B"/>
+  
+  <!-- Label -->
+  <text x="62" y="210" text-anchor="middle" fill="#FFFFFF" font-family="monospace" font-size="8" font-weight="bold">WHITE</text>
+
+  <!-- ============================================ -->
+  <!-- BLUE BELT - Fighter 2 -->
+  <!-- ============================================ -->
+  
+  <rect x="94" y="116" width="24" height="40" fill="#F0F0F0"/>
+  <rect x="98" y="96" width="16" height="20" fill="#D4A574"/>
+  <rect x="88" y="116" width="36" height="8" fill="#E8E8E8"/>
+  <rect x="102" y="124" width="8" height="8" fill="#D0D0D0"/>
+  <rect x="104" y="124" width="4" height="32" fill="#D0D0D0"/>
+  <!-- Belt - BLUE -->
+  <rect x="94" y="148" width="24" height="4" fill="#2471A3"/>
+  <rect x="104" y="148" width="4" height="8" fill="#2471A3"/>
+  <!-- Legs -->
+  <rect x="96" y="156" width="8" height="26" fill="#E8E8E8"/>
+  <rect x="108" y="156" width="8" height="26" fill="#E8E8E8"/>
+  <rect x="94" y="182" width="12" height="6" fill="#F0F0F0"/>
+  <rect x="106" y="182" width="12" height="6" fill="#F0F0F0"/>
+  <!-- Eyes -->
+  <rect x="102" y="104" width="2" height="2" fill="#1a1a2e"/>
+  <rect x="108" y="104" width="2" height="2" fill="#1a1a2e"/>
+  <!-- Headband -->
+  <rect x="98" y="96" width="16" height="4" fill="#C0392B"/>
+  
+  <!-- Right arm extended (punching) -->
+  <rect x="118" y="120" width="12" height="6" fill="#E8E8E8"/>
+  <!-- Fist -->
+  <rect x="130" y="120" width="6" height="6" fill="#D4A574"/>
+
+  <text x="106" y="206" text-anchor="middle" fill="#2471A3" font-family="monospace" font-size="8" font-weight="bold">BLUE</text>
+
+  <!-- ============================================ -->
+  <!-- PURPLE BELT - Fighter 3 (center, highlight) -->
+  <!-- ============================================ -->
+  
+  <!-- Guarda em pé / standing guard pose -->
+  <rect x="150" y="100" width="28" height="44" fill="#F0F0F0"/>
+  <rect x="156" y="78" width="16" height="22" fill="#D4A574"/>
+  <!-- Shoulders -->
+  <rect x="146" y="100" width="36" height="8" fill="#E8E8E8"/>
+  <!-- Lapel -->
+  <rect x="160" y="108" width="8" height="8" fill="#D0D0D0"/>
+  <rect x="162" y="108" width="4" height="36" fill="#D0D0D0"/>
+  <!-- Belt - PURPLE -->
+  <rect x="150" y="136" width="28" height="4" fill="#7D3C98"/>
+  <rect x="162" y="136" width="4" height="8" fill="#7D3C98"/>
+  <!-- Legs spread (guard) -->
+  <rect x="148" y="144" width="10" height="28" fill="#E8E8E8"/>
+  <rect x="170" y="144" width="10" height="28" fill="#E8E8E8"/>
+  <!-- Feet -->
+  <rect x="144" y="172" width="14" height="6" fill="#F0F0F0"/>
+  <rect x="170" y="172" width="14" height="6" fill="#F0F0F0"/>
+  <!-- Eyes / determined -->
+  <rect x="160" y="86" width="2" height="2" fill="#1a1a2e"/>
+  <rect x="166" y="86" width="2" height="2" fill="#1a1a2e"/>
+  <!-- Frown line -->
+  <rect x="160" y="94" width="6" height="2" fill="#B87333"/>
+  <!-- Headband -->
+  <rect x="156" y="78" width="16" height="4" fill="#C0392B"/>
+  <!-- Arms at guard -->
+  <rect x="138" y="102" width="12" height="6" fill="#E8E8E8"/>
+  <rect x="178" y="102" width="12" height="6" fill="#E8E8E8"/>
+  <!-- Fists -->
+  <rect x="136" y="102" width="4" height="6" fill="#D4A574"/>
+  <rect x="188" y="102" width="4" height="6" fill="#D4A574"/>
+  
+  <!-- Purple glow indicator (center fighter - the chief of staff) -->
+  <rect x="148" y="98" width="2" height="2" fill="#7D3C98"/>
+  <rect x="178" y="98" width="2" height="2" fill="#7D3C98"/>
+
+  <text x="164" y="196" text-anchor="middle" fill="#7D3C98" font-family="monospace" font-size="8" font-weight="bold">PURPLE</text>
+
+  <!-- ============================================ -->
+  <!-- BROWN BELT - Fighter 4 -->
+  <!-- ============================================ -->
+  
+  <rect x="208" y="116" width="24" height="40" fill="#F0F0F0"/>
+  <rect x="212" y="96" width="16" height="20" fill="#D4A574"/>
+  <rect x="202" y="116" width="36" height="8" fill="#E8E8E8"/>
+  <rect x="216" y="124" width="8" height="8" fill="#D0D0D0"/>
+  <rect x="218" y="124" width="4" height="32" fill="#D0D0D0"/>
+  <!-- Belt - BROWN -->
+  <rect x="208" y="148" width="24" height="4" fill="#6E4C1E"/>
+  <rect x="218" y="148" width="4" height="8" fill="#6E4C1E"/>
+  <!-- Legs -->
+  <rect x="210" y="156" width="8" height="26" fill="#E8E8E8"/>
+  <rect x="222" y="156" width="8" height="26" fill="#E8E8E8"/>
+  <rect x="208" y="182" width="12" height="6" fill="#F0F0F0"/>
+  <rect x="220" y="182" width="12" height="6" fill="#F0F0F0"/>
+  <!-- Eyes -->
+  <rect x="216" y="104" width="2" height="2" fill="#1a1a2e"/>
+  <rect x="222" y="104" width="2" height="2" fill="#1a1a2e"/>
+  <!-- Headband -->
+  <rect x="212" y="96" width="16" height="4" fill="#C0392B"/>
+  
+  <!-- Left arm extended -->
+  <rect x="196" y="120" width="12" height="6" fill="#E8E8E8"/>
+  <rect x="192" y="120" width="6" height="6" fill="#D4A574"/>
+
+  <text x="220" y="206" text-anchor="middle" fill="#6E4C1E" font-family="monospace" font-size="8" font-weight="bold">BROWN</text>
+
+  <!-- ============================================ -->
+  <!-- BLACK BELT - Fighter 5 (rightmost) -->
+  <!-- ============================================ -->
+  
+  <rect x="258" y="112" width="24" height="42" fill="#F0F0F0"/>
+  <rect x="262" y="90" width="16" height="22" fill="#5D4E37"/>
+  <rect x="252" y="112" width="36" height="8" fill="#E8E8E8"/>
+  <rect x="266" y="120" width="8" height="8" fill="#D0D0D0"/>
+  <rect x="268" y="120" width="4" height="34" fill="#D0D0D0"/>
+  <!-- Belt - BLACK -->
+  <rect x="258" y="146" width="24" height="4" fill="#111111"/>
+  <rect x="268" y="146" width="4" height="8" fill="#111111"/>
+  <!-- Legs -->
+  <rect x="260" y="154" width="8" height="26" fill="#E8E8E8"/>
+  <rect x="272" y="154" width="8" height="26" fill="#E8E8E8"/>
+  <rect x="258" y="180" width="12" height="6" fill="#F0F0F0"/>
+  <rect x="270" y="180" width="12" height="6" fill="#F0F0F0"/>
+  <!-- Eyes -->
+  <rect x="266" y="98" width="2" height="2" fill="#FFFFFF"/>
+  <rect x="272" y="98" width="2" height="2" fill="#FFFFFF"/>
+  <!-- Headband -->
+  <rect x="262" y="90" width="16" height="4" fill="#111111"/>
+  <!-- Warrior aura - minimal gi (black belt intensity) -->
+  <!-- Lapel black accent -->
+  <rect x="266" y="112" width="8" height="8" fill="#a0a0a0"/>
+  
+  <!-- Fist bump with brown belt (camaraderie) -->
+  <rect x="244" y="118" width="14" height="6" fill="#E8E8E8"/>
+  <rect x="240" y="118" width="4" height="6" fill="#5D4E37"/>
+
+  <text x="270" y="204" text-anchor="middle" fill="#111111" font-family="monospace" font-size="8" font-weight="bold">BLACK</text>
+
+  <!-- ============================================ -->
+  <!-- Lotus ornament (bottom center) -->
+  <!-- ============================================ -->
+  <g transform="translate(200, 280)">
+    <!-- Outer petals -->
+    <rect x="-18" y="-12" width="8" height="16" fill="#E8D5B7" rx="0"/>
+    <rect x="-8" y="-16" width="16" height="20" fill="#F5E6CC" rx="0"/>
+    <rect x="10" y="-12" width="8" height="16" fill="#E8D5B7" rx="0"/>
+    <!-- Middle petals -->
+    <rect x="-12" y="-6" width="8" height="12" fill="#C9A96E"/>
+    <rect x="4" y="-6" width="8" height="12" fill="#C9A96E"/>
+    <!-- Center -->
+    <rect x="-4" y="-8" width="8" height="12" fill="#FF69B4"/>
+    <!-- Stem -->
+    <rect x="-2" y="4" width="4" height="20" fill="#2ECC71"/>
+    <!-- Leaves -->
+    <rect x="-14" y="10" width="12" height="4" fill="#27AE60"/>
+    <rect x="2" y="14" width="12" height="4" fill="#27AE60"/>
+  </g>
+
+  <!-- Footer text -->
+  <text x="200" y="390" text-anchor="middle" fill="#6B7280" font-family="monospace" font-size="7">ALWAYS EVOLVING</text>
+  <text x="200" y="400" text-anchor="middle" fill="#4B5563" font-family="monospace" font-size="6">OSS CHIEF OF STAFF</text>
+</svg>
