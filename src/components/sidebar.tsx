@@ -14,8 +14,10 @@ const navItems = [
   { name: "Projects", href: "/projects", icon: "◇", available: true },
   { name: "Memory", href: "/memory", icon: "◇", available: true },
   { name: "Docs", href: "/docs", icon: "◇", available: true },
+  { name: "Runs", href: "/runs", icon: "⚙️", available: true },
   { name: "Team", href: "/team", icon: "◇", available: true },
   { name: "Visual", href: "/visual", icon: "◇", available: true },
+  { name: "Settings", href: "/settings", icon: "⚙️", available: true },
 ];
 
 export function Sidebar() {
@@ -41,7 +43,7 @@ export function Sidebar() {
       <ScrollArea className="flex-1 px-4 py-4">
         <nav className="space-y-1">
           {navItems.map((item) => {
-            const isActive = pathname === item.href;
+            const isActive = pathname === item.href || (item.href !== "/" && pathname.startsWith(item.href + "/"));
             const isAvailable = item.available;
 
             return (

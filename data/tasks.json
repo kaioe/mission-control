@@ -67,20 +67,24 @@
   {
     "id": "task-8",
     "title": "Create class schedule and pricing structure",
-    "status": "pending",
+    "status": "done",
     "priority": "high",
     "project": "BJJ Lotus Club",
     "assignee": "Oss",
-    "createdAt": "2026-05-08T06:47:00.000Z"
+    "createdAt": "2026-05-08T06:47:00.000Z",
+    "updatedAt": "2026-05-08T06:40:00.000Z",
+    "completedAt": "2026-05-08T06:40:00.000Z"
   },
   {
     "id": "task-9",
     "title": "Design new member onboarding flow",
-    "status": "pending",
+    "status": "done",
     "priority": "high",
     "project": "BJJ Lotus Club",
     "assignee": "Oss",
-    "createdAt": "2026-05-08T06:47:00.000Z"
+    "createdAt": "2026-05-08T06:47:00.000Z",
+    "updatedAt": "2026-05-08T12:40:00.000Z",
+    "completedAt": "2026-05-08T12:40:00.000Z"
   },
   {
     "id": "task-10",

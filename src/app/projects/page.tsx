@@ -1,10 +1,10 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { useRouter } from "next/navigation";
 import { DashboardLayout } from "@/app/dashboard-layout";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { ScrollArea } from "@/components/ui/scroll-area";
 import { Progress } from "@/components/ui/progress";
 
 import { useToast } from "@/components/toast";
@@ -38,6 +38,7 @@ const EMPTY_PROJECT: Project = {
 };
 
 export default function ProjectsPage() {
+  const router = useRouter();
   const [projects, setProjects] = useState<Project[]>([]);
   const [loading, setLoading] = useState(true);
   const [showModal, setShowModal] = useState(false);
@@ -187,7 +188,7 @@ export default function ProjectsPage() {
                 <Card
                   key={project.id}
                   className="bg-[#141419] border-white/10 hover:border-[#9333EA]/50 transition-all cursor-pointer group relative"
-                  onClick={() => openEdit(project)}
+                  onClick={() => router.push(`/projects/${project.id}`)}
                 >
                   <CardHeader className="pb-3">
                     <div className="flex items-center justify-between mb-2">

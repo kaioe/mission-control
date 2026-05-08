@@ -1,15 +1,137 @@
 [
-  {"id":"act-001","type":"system","entityType":"project","entityId":"bjj-lotus-club","entityName":"BJJ Lotus Club","message":"Mission Control Phase 1 deployed","timestamp":"2026-05-08T04:00:00.000Z"},
-  {"id":"act-002","type":"system","entityType":"system","entityId":"office","entityName":"office.kaioandrade.com","message":"HTTPS endpoint configured via Caddy","timestamp":"2026-05-08T04:25:00.000Z"},
-  {"id":"act-003","type":"created","entityType":"doc","entityId":"bjj-pixel-art","entityName":"BJJ Belt Lineup","message":"Created pixel art: BJJ Belt Lineup (5 fighters)","timestamp":"2026-05-08T04:40:00.000Z"},
-  {"id":"act-004","type":"system","entityType":"memory","entityId":"2026-05-08","entityName":"2026-05-08 Daily Log","message":"Memory page built and live","timestamp":"2026-05-08T04:50:00.000Z"},
-  {"id":"act-005","type":"created","entityType":"task","entityId":"task-1","entityName":"Design BJJ Lotus Club logo","message":"Created task: Design BJJ Lotus Club logo","timestamp":"2026-05-08T05:00:00.000Z"},
-  {"id":"act-006","type":"created","entityType":"task","entityId":"task-2","entityName":"Build Mission Control Phase 1 dashboard","message":"Created task: Build Mission Control Phase 1 dashboard","timestamp":"2026-05-08T05:00:00.000Z"},
-  {"id":"act-007","type":"done","entityType":"task","entityId":"task-1","entityName":"Design BJJ Lotus Club logo","message":"Completed task: Design BJJ Lotus Club logo","timestamp":"2026-05-08T05:10:00.000Z"},
-  {"id":"act-008","type":"done","entityType":"task","entityId":"task-2","entityName":"Build Mission Control Phase 1 dashboard","message":"Completed task: Build Mission Control Phase 1 dashboard","timestamp":"2026-05-08T05:15:00.000Z"},
-  {"id":"act-009","type":"created","entityType":"task","entityId":"task-3","entityName":"Add project CRUD to Mission Control","message":"Created task: Add project CRUD to Mission Control","timestamp":"2026-05-08T05:20:00.000Z"},
-  {"id":"act-010","type":"done","entityType":"task","entityId":"task-3","entityName":"Add project CRUD to Mission Control","message":"Completed task: Add project CRUD to Mission Control","timestamp":"2026-05-08T05:35:00.000Z"},
-  {"id":"act-011","type":"created","entityType":"doc","entityId":"first-edition","entityName":"BJJ Lotus Club Newsletter #1","message":"Created newsletter: first-edition.md","timestamp":"2026-05-08T06:10:00.000Z"},
-  {"id":"act-012","type":"system","entityType":"system","entityId":"dashboard","entityName":"Dashboard","message":"Dashboard homepage live with stats & crew","timestamp":"2026-05-08T06:15:00.000Z"},
-  {"id":"act-013","type":"system","entityType":"system","entityId":"phase2","entityName":"Agent Orchestration","message":"Phase 2 deployed: 3 cron jobs for autonomous crew","timestamp":"2026-05-08T06:45:00.000Z"}
+  {
+    "id": "act-001",
+    "type": "system",
+    "entityType": "project",
+    "entityId": "bjj-lotus-club",
+    "entityName": "BJJ Lotus Club",
+    "message": "Mission Control Phase 1 deployed",
+    "timestamp": "2026-05-08T04:00:00.000Z"
+  },
+  {
+    "id": "act-002",
+    "type": "system",
+    "entityType": "system",
+    "entityId": "office",
+    "entityName": "office.kaioandrade.com",
+    "message": "HTTPS endpoint configured via Caddy",
+    "timestamp": "2026-05-08T04:25:00.000Z"
+  },
+  {
+    "id": "act-003",
+    "type": "created",
+    "entityType": "doc",
+    "entityId": "bjj-pixel-art",
+    "entityName": "BJJ Belt Lineup",
+    "message": "Created pixel art: BJJ Belt Lineup (5 fighters)",
+    "timestamp": "2026-05-08T04:40:00.000Z"
+  },
+  {
+    "id": "act-004",
+    "type": "system",
+    "entityType": "memory",
+    "entityId": "2026-05-08",
+    "entityName": "2026-05-08 Daily Log",
+    "message": "Memory page built and live",
+    "timestamp": "2026-05-08T04:50:00.000Z"
+  },
+  {
+    "id": "act-005",
+    "type": "created",
+    "entityType": "task",
+    "entityId": "task-1",
+    "entityName": "Design BJJ Lotus Club logo",
+    "message": "Created task: Design BJJ Lotus Club logo",
+    "timestamp": "2026-05-08T05:00:00.000Z"
+  },
+  {
+    "id": "act-006",
+    "type": "created",
+    "entityType": "task",
+    "entityId": "task-2",
+    "entityName": "Build Mission Control Phase 1 dashboard",
+    "message": "Created task: Build Mission Control Phase 1 dashboard",
+    "timestamp": "2026-05-08T05:00:00.000Z"
+  },
+  {
+    "id": "act-007",
+    "type": "done",
+    "entityType": "task",
+    "entityId": "task-1",
+    "entityName": "Design BJJ Lotus Club logo",
+    "message": "Completed task: Design BJJ Lotus Club logo",
+    "timestamp": "2026-05-08T05:10:00.000Z"
+  },
+  {
+    "id": "act-008",
+    "type": "done",
+    "entityType": "task",
+    "entityId": "task-2",
+    "entityName": "Build Mission Control Phase 1 dashboard",
+    "message": "Completed task: Build Mission Control Phase 1 dashboard",
+    "timestamp": "2026-05-08T05:15:00.000Z"
+  },
+  {
+    "id": "act-009",
+    "type": "created",
+    "entityType": "task",
+    "entityId": "task-3",
+    "entityName": "Add project CRUD to Mission Control",
+    "message": "Created task: Add project CRUD to Mission Control",
+    "timestamp": "2026-05-08T05:20:00.000Z"
+  },
+  {
+    "id": "act-010",
+    "type": "done",
+    "entityType": "task",
+    "entityId": "task-3",
+    "entityName": "Add project CRUD to Mission Control",
+    "message": "Completed task: Add project CRUD to Mission Control",
+    "timestamp": "2026-05-08T05:35:00.000Z"
+  },
+  {
+    "id": "act-011",
+    "type": "created",
+    "entityType": "doc",
+    "entityId": "first-edition",
+    "entityName": "BJJ Lotus Club Newsletter #1",
+    "message": "Created newsletter: first-edition.md",
+    "timestamp": "2026-05-08T06:10:00.000Z"
+  },
+  {
+    "id": "act-012",
+    "type": "system",
+    "entityType": "system",
+    "entityId": "dashboard",
+    "entityName": "Dashboard",
+    "message": "Dashboard homepage live with stats & crew",
+    "timestamp": "2026-05-08T06:15:00.000Z"
+  },
+  {
+    "id": "act-013",
+    "type": "system",
+    "entityType": "system",
+    "entityId": "phase2",
+    "entityName": "Agent Orchestration",
+    "message": "Phase 2 deployed: 3 cron jobs for autonomous crew",
+    "timestamp": "2026-05-08T06:45:00.000Z"
+  },
+  {
+    "id": "act-014",
+    "type": "done",
+    "entityType": "task",
+    "entityId": "task-9",
+    "entityName": "Design new member onboarding flow",
+    "message": "New member onboarding flow designed and documented",
+    "timestamp": "2026-05-08T10:42:05.000Z"
+  },
+  {
+    "id": "act-015",
+    "type": "system",
+    "entityType": "project",
+    "entityId": "bjj-lotus-club",
+    "entityName": "BJJ Lotus Club",
+    "message": "Progress updated: 45% \u2192 55%. Onboarding flow completed.",
+    "timestamp": "2026-05-08T10:42:05.000Z"
+  }
 ]
